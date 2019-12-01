@@ -17,6 +17,7 @@ Extensions:
 * [prepend](#prepend)
 * [isEmail](#isemail)
 * [isURL](#isurl)
+* [format](#format)
 
 ## isNullOrEmpty
 
