@@ -117,5 +117,10 @@ Extensions:
     text = "linkedin.com/in/ugurhasar";
     console.log(text.isURL());                        // output: false
 
+## format
+
+    var text = "Hello {0}!";
+    console.log(text.format("World"));                // output: "Hello World!"
+
 
 Copyright (c) 2014 Uğur Hasar 

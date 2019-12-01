@@ -64,3 +64,11 @@ String.prototype.isEmail = function () {
 String.prototype.isURL = function () {
   return /^(?:\b(https?|ftp|file):\/\/[\-A-Z0-9+&@#\/%?=~_|!:,.;]*[\-A-Z0-9+&@#\/%=~_|])$/i.test(this);
 };
+
+String.prototype.format = function () {
+    x = this;
+    for (a in arguments) {
+        x = x.replace("{" + a + "}", arguments[a]);
+    }
+    return x;
+};
